@@ -1,6 +1,6 @@
 # Geekizz
 
-##Projeto Integrador - Grupo 05 (SENAC)
+## Projeto Integrador - Grupo 05 (SENAC)
 
 Trabalho da disciplina Projeto Integrador: Desenvolvimento de Sistemas Orientado a Dispositivos Móveis e Baseados na Web  - orientado pelo Prof. Gustavo Calixto, para a Faculdade Senac, Curso de Análise e Desenvolvimento de Sistemas.
 
