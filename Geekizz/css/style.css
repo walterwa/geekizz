@@ -18,5 +18,57 @@ body {
     padding: 1em;
 }
 
+/* Produtos*/
+header .conteiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
+header .logo {
+  margin-left: 5px;
+  color: var(--branco);
+  font-family: 'Italiana-Regular', Times;
+  font-size: 40px;
+}
+.produtos{
+  font-size: 16px;
+  font-style: 'Italiana-Regular', Arial;
+  background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url(/img/Mandalorian.jpg);
+  height: 400px;
+  background-size: cover;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.produtos .categoria {
+  margin-top: 10px;
+  margin-bottom: 40px;   
+}
+
+.produtos .título {
+  margin-top: 15%;
+  font-size: 50px;
+  font-family: 'Italiana-Regular', Arial, sans-serif;
+}
+.cantainer{
+  margin-left: 20px;
+
+}
+
+.produtos .cantainer {
+  width: 70%;
+}
+.box-canecas {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrossel-produtos{
+  margin-top: 5px;
+}
