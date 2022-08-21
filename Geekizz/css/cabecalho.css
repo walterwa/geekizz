@@ -24,9 +24,15 @@
   text-transform: uppercase;
 }
 
+.lista-item a:hover {
+  text-decoration: underline;
+  color: var(--branco);
+}
+
 .banner__pesquisa {
     background-color: var(--cinza-escuro);
     border: 1px solid var(--cinza-escuro);
+    color: var(--branco);
     border-radius: 20px;
     padding: 1em;
     width: 100%;
