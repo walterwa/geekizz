@@ -1,0 +1,97 @@
+.principal {
+	margin-top: 10px;
+	background-color: var(--cinza-principal);
+	padding: 0.2em;
+}
+
+.container-carrinho {
+	font-family: var(--fonte-secundaria);
+	font-size: 30px;
+	color: var(--branco);
+}
+
+.titulo-carrinho {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+.container-cupom {
+	font-family: var(--fonte-secundaria);
+	font-size: 30px;
+	color: var(--branco);
+}
+
+.titulo-cupom {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+.container-frete {
+	font-family: var(--fonte-secundaria);
+	font-size: 30px;
+	color: var(--branco);
+}
+
+.titulo-frete {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+.container-presente {
+	font-family: var(--fonte-secundaria);
+	font-size: 30px;
+	color: var(--branco);
+}
+
+.titulo-presente {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+.container-tabela-compras{
+	margin-top: 20px;
+}
+
+.icones-carrinho{
+	width: 100px;
+	height: 100px;
+}
+
+#th-compras{
+	border: 1px solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+}
+
+#td-compras {
+	border: 1px solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.container-tabela-total{
+	margin-top: 30px;
+	margin-left: 760px;
+}
+
+#td-total{
+	border: 1px solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 180px;
+}
+
+
+

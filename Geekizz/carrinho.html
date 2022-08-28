@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>GEEKIZZ</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/carrinho.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Italiana&display=swap"rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <ul class="lista-menu">
+                <li>
+                    <h1 class="container-titulo">GEEKIZZ</h1>
+                </li>
+                <li class="lista-item"><a href="./index.html">Home</a></li>
+                <li class="lista-item"><a href="./produtos.html">Produtos</a></li>
+                <li class="lista-item"><a href="./canecas.html">Canecas</a></li>
+                <li class="lista-item"><a href="./garrafas.html">Garrafas</a></li>
+                <li class="lista-item"><a href="./meuspedidos.html">Meus Pedidos</a></li>
+                <li><input type="search" class="banner__pesquisa" placeholder="Buscar"></li>
+                <li><img src="img/usuario.svg" alt="Usuário" class="icones"></li>
+                <li class="lista-login">
+                    <p>Bem vindo(a)! </p>
+                    <a href="#" class="links-login">Entre</a>
+                    <p>ou </p>
+                    <a href="#" class="links-login">Cadastre-se</a>
+                </li>
+                <li><img src="img/sacola.svg" alt="Sacola de compras" class="icones"></li>
+            </ul>
+        </div>
+    </header>
+    <main class="principal">
+        <div class="container-carrinho">
+            <h1 class="titulo-carrinho">Carrinho de compras</h1>
+        </div>
+    </main>
+    <main class="tabela-compras">
+        <div class="container-tabela-compras">
+            <table id="compras">
+                    <tr>
+                        <th id="th-compras" width="150">Item</th>
+                        <th id="th-compras" width="300">Produto</th>
+                        <th id="th-compras" width="650">Descrição</th>
+                        <th id="th-compras" width="300">Quantidade</th>
+                        <th id="th-compras" width="300">Preço</th>
+                        <th id="th-compras" width="300">Total</th>
+                    </tr>
+                    <tr>
+                        <td id="td-compras">1</td>
+                        <td id="td-compras"><img src="img/caneca1.png" class="icones-carrinho"></td>
+                        <td id="td-compras">Caneca Yoda - Beber água você deve</td>
+                        <td id="td-compras">1</td>
+                        <td id="td-compras">R$: 69,99</td>
+                        <td id="td-compras">R$: 69,99</td>
+                    </tr>
+                    <tr>
+                        <td id="td-compras">2</td>
+                        <td id="td-compras"><img src="img/garrafa2.png" class="icones-carrinho"></td>
+                        <td id="td-compras">Garrafa térmica - Star Wars</td>
+                        <td id="td-compras">1</td>
+                        <td id="td-compras">R$: 89,99</td>
+                        <td id="td-compras">R$: 89,99</td>
+                    </tr>
+            </table>
+        </div>
+    </main>
+    <main class="principal">
+        <div class="container-cupom">
+            <h1 class="titulo-cupom">Utilizar Cupom</h1>
+        </div>
+    </main>
+    <main class="principal">
+        <div class="container-frete">
+            <h1 class="titulo-frete">Calcular frete</h1>
+        </div>
+    </main>
+    <main class="principal">
+        <div class="container-presente">
+            <h1 class="titulo-presente">Utilizar vale-presente</h1>
+        </div>
+    </main>
+    <main class="tabela-total">
+        <div class="container-tabela-total">
+            <table id="total">
+                    <tr>
+                        <td id="td-total">Total</td>
+                        <td id="td-total">R$: 159,98</td>
+                    </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="icones-footer">
+        <p>Siga nossas Redes Sociais:</p>
+        <a href="mailto:contato@geekizz.com"><img src="./img/icones/envelope.svg" alt="Email"></a>
+        <a href="https://www.facebook.com/geekizz_loja"><img src="./img/icones/facebook.svg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/geekizz_loja"><img src="./img/icones/instagram.svg" alt="Instagram"></a>
+        <a href="https://whatsa.me/558100000000"><img src="./img/icones/whatsapp.svg" alt="whatsapp"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
