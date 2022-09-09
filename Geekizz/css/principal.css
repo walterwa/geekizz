@@ -16,12 +16,12 @@
 .container-principal{
   margin-right: 20em;
 }
-
+/*já está na parte style.
 .container-produtos{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; 
-}
+}*/
 
 .produtos{
   margin: 0.5em;

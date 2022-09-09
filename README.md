@@ -9,7 +9,6 @@ Integrantes:
 Alex Evangelista do Amaral
 Fabiana Fernandes Apolinario
 Manuela Pereira da Paz Bezerra
-Mariana de Freitas Azevedo Alencar
 Matheus Aparecido Bueno Fidelis Correa
 Raoni Neri da Silva
 Walter Wagner de Andrade Pereira

@@ -10,7 +10,9 @@
 }
 
 body {
-    background-image: url(../img/fundo.jpg);
+    background-image: url('../img/fundo-large.jpg');
+    background-color: black;
+    background-size:cover;
     font-family: var(--fonte-principal);
     color: var(--branco);
     font-size: 16px;
@@ -41,47 +43,54 @@ header .logo {
 .produtos{
   font-size: 16px;
   font-style: 'Italiana-Regular', Arial;
-  background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url(/img/Mandalorian.jpg);
+  background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('../img/Mandalorian.jpg');
   height: 400px;
   background-size: cover;
-
+/*
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-start;*/
 }
 
-.produtos .categoria {
+.produtos-categoria {
   margin-top: 10px;
   margin-bottom: 40px;   
 }
 
-.produtos .título {
+.produtos-título {
   margin-top: 15%;
   font-size: 50px;
   font-family: 'Italiana-Regular', Arial, sans-serif;
 }
-.cantainer{
+.container{
   margin-left: 20px;
 
 }
 
-.produtos .cantainer {
-  width: 70%;
+.container-produtos {
+  max-width: 80%;
+  /*valores adicionados*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
+/*valores adicionados*/
+.container-produtos img {
+  border-radius: 4px;
+}
+
 .box-canecas {
-  height: 230px;
-  width: 100%;
+  max-width: 100%;
   display: block;
 }
 
 .box-garrafas {
-  height: 380px;
-  width: 100%;
+  max-width: 100%;
   display: block;
 }
 
-.carrossel-produtos{
+.carrossel-produtos {
   margin-top: 5px;
 }
 
@@ -93,8 +102,9 @@ header .logo {
 }
 
 h3 {
-font-size: 25px;
-text-align: center;
+  margin-top: 10px; 
+  font-size: 25px;
+  text-align: center;
 }
 
 
@@ -123,6 +133,21 @@ footer {
   margin-top: 20px;
 }
 
+.bi {
+  padding: 10px;
+  gap: 10px;
+}
+.bi-envelope:hover,
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-whatsapp:hover{
+  fill: var(--cinza-principal);
+}
+a {
+  text-decoration: none;
+}
+
+/*
 .icones-footer  img {
   padding: 10px;
   width: 24px;
@@ -130,4 +155,4 @@ footer {
 
 .icones-footer a:active {
   border-color: #696969;
-}
+}*/
