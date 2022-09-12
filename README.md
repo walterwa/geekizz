@@ -15,16 +15,24 @@ Walter Wagner de Andrade Pereira
 
 
 
-![Geekizz Home](/home/walter/Documentos/SENAC/Master/geekizz/img.divulgacao/geekizz_index.png "Geekizz Home")
+[![geekizz-index.png](https://i.postimg.cc/9fq7nFVb/geekizz-index.png)](https://postimg.cc/WDTzDVdq) 
+Geekizz Home
 
-![geekizz_cadastrar](/home/walter/Documentos/SENAC/Master/geekizz/img.divulgacao/geekizz_cadastrar.png "Geekizz Cadastrar")
+[![geekizz-cadastrar.png](https://i.postimg.cc/J7QBgFwf/geekizz-cadastrar.png)](https://postimg.cc/jCL5nZSc)
+Cadastrar
 
-![geekizz_login](/home/walter/Documentos/SENAC/Master/geekizz/img.divulgacao/geekizz_login.png "Geekizz Login")
+[![geekizz-login.png](https://i.postimg.cc/RVsJCnZG/geekizz-login.png)](https://postimg.cc/HVMkBn57)
+Login
 
-![Geekizz Produtos](/home/walter/Documentos/SENAC/Master/geekizz/img.divulgacao/geekizz_produtos.png "Geekizz Produtos")
+[![geekizz-produtos.png](https://i.postimg.cc/bw4Gkcbt/geekizz-produtos.png)](https://postimg.cc/k2FXPHTJ)
+Produtos
 
-![geekizz_canecas](/home/walter/Documentos/SENAC/Master/geekizz/img.divulgacao/geekizz_canecas.png "Geekizz Canecas")
+[![geekizz-canecas.png](https://i.postimg.cc/Gt39dc0Z/geekizz-canecas.png)](https://postimg.cc/VrTzFPkR)
+Canecas
 
-![geekizz_garrafas](/home/walter/Documentos/SENAC/Master/geekizz/img.divulgacao/geekizz_garrafas.png "Geekizz Garrafas")
 
-![geekizz_carrinho](/home/walter/Documentos/SENAC/Master/geekizz/img.divulgacao/geekizz_carrinho.png "Geekizz Carrinho de Compras")
+[![geekizz-garrafas.png](https://i.postimg.cc/wxF7FsLH/geekizz-garrafas.png)](https://postimg.cc/jCwxS2Mk)
+Garrafas
+
+[![geekizz-carrinho.png](https://i.postimg.cc/Hshj1D6h/geekizz-carrinho.png)](https://postimg.cc/rK5q5bX1) 
+Carrinho de Compras
