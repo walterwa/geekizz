@@ -93,5 +93,29 @@
 	width: 180px;
 }
 
+.f1-btn-finalizar{
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(196, 3, 3);
+    opacity: 0.8;
+    width: 10vw;
+    height: 5vh;
+    margin: 15px;
+    align-items: left;
+    justify-content: center;
+}
+
+.f1-btn-continuar{
+	border-radius: 30px;
+	border: none;
+	color: white;
+	background-color: rgb(188, 188, 189);
+	opacity: 0.8;
+	width: 10vw;
+	height: 5vh;
+	margin: 15px;
+	align-items: left;
+	justify-content: left;
 
 
