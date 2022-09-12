@@ -41,6 +41,6 @@ Canecas
 
 Garrafas
 
-[![geekizz-carrinho.png](https://i.postimg.cc/Hshj1D6h/geekizz-carrinho.png)](https://postimg.cc/rK5q5bX1) 
+[![geekizz-carrinho.png](https://i.postimg.cc/CKcvTs94/geekizz-carrinho.png)](https://postimg.cc/jWJ6yPxW)
 
 Carrinho de Compras

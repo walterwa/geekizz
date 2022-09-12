@@ -147,6 +147,13 @@ a {
   text-decoration: none;
 }
 
+#em-construcao {
+  display: flex;
+  padding: 200px;
+  font-size: 100px;
+  text-align: center;
+}
+
 /*
 .icones-footer  img {
   padding: 10px;
