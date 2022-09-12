@@ -1,0 +1,122 @@
+.principal{
+    flex-direction: column;
+}
+
+.icones-footer{
+    position: relative;
+    bottom: 175px;
+}
+
+.f1-cadastro{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    color: #fff;
+    background-color: #696969;
+    font: 32px 'Calibri';
+    bottom: 20px;
+}
+
+.login{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.f1-btn-cadastrar{
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(3, 196, 106);
+    opacity: 0.8;
+    width: 10vw;
+    height: 5vh;
+    margin: 30px;
+	padding: 10px;
+    align-items: center;
+    justify-content: center;
+	display: flex;
+	position: relative;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.f1-btn-cadastrar:hover{
+    background-color: rgb(0, 255, 85);
+    transition: .3s;
+	cursor: pointer;
+    box-shadow: 0px 4px 20px #bcc0c4;
+}
+
+.login-nome-campo, .login-data_nascimento-campo, .login-celular-campo, .login-cpf-campo, .login-email-campo, .login-senha-campo, .login-confirmar_senha-campo, .login-cep-campo, .login-rua-campo, .login-numero-campo, .login-complemento-campo, .login-bairro-campo, .login-cidade-campo, .login-estado-campo, .login-pais-campo{
+	overflow: hidden;
+	background-color: rgb(71, 69, 69);
+	border-radius: 30px;
+    width: 25vw;
+    margin: 15px;
+    opacity: 0.9;
+    color: #fff;
+    border: none;
+    padding: 1em;
+}
+
+.row {
+	display: flex;	
+  }
+  
+.column {
+	flex: 50%;
+	display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 20px;
+}
+
+.cb{
+	display: flex;
+	position: relative;
+	flex-direction: row;
+    justify-content: space-evenly;
+	color: #fff;
+	font: 15px 'Calibri';
+	background-color: rgb(0, 0, 0);
+	border-radius: 30px;
+	opacity: 0.8;
+    bottom: 20px;
+}
+
+.cb1, .cb2, .cb3{
+	padding: 10px;
+}
+
+.obs{
+	display: flex;
+	position: relative;
+	color: #fff;
+	font: 15px 'Calibri';
+	bottom: 60px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 30px;
+	opacity: 0.8;
+    padding: 3px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: white;
+	opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: white;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: white;
+}
